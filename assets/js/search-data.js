@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -398,16 +391,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-three-papers-have-been-accepted-to-icpr-24",
+          title: 'Three papers have been accepted to ICPR’24.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-a-paper-entitled-real-time-scheduling-for-multi-object-tracking-tasks-in-regions-with-different-criticalities-has-been-accepted-to-jsa",
+          title: 'A paper entitled “Real-Time Scheduling for Multi-Object Tracking Tasks in Regions with Different...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-a-paper-entitled-banktweak-adversarial-attack-against-multi-object-trackers-by-manipulating-feature-banks-has-been-accepted-to-ijcai-25",
+          title: 'A paper entitled “BankTweak: Adversarial Attack against Multi-Object Trackers by Manipulating Feature Banks”...',
+          description: "",
+          section: "News",},{id: "news-a-paper-entitled-cf-detr-coarse-to-fine-transformer-for-real-time-object-detection-has-been-accepted-to-rtss-25",
+          title: 'A paper entitled “CF-DETR: Coarse-to-Fine Transformer for Real-Time Object Detection” has been accepted...',
+          description: "",
+          section: "News",},{id: "news-a-paper-entitled-timestep-compressed-attack-on-spiking-neural-networks-through-timestep-level-backpropagation-has-been-accepted-to-aaai-26",
+          title: 'A paper entitled “Timestep-Compressed Attack on Spiking Neural Networks through Timestep-Level Backpropagation” has...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
