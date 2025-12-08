@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+ A paper entitled "Timestep-Compressed Attack on Spiking Neural Networks through Timestep-Level Backpropagation" has been accepted to **AAAI'26**.
