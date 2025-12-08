@@ -264,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Donghwa]
-  first_name: [Kang]
+  last_name: [Kang]
+  first_name: [Donghwa]
 
   style: apa
   locale: en
