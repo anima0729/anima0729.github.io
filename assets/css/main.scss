@@ -23,30 +23,3 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-.badge {
-  
-  /* Real-time: 빨간색 */
-  &.realtime {
-    background-color: #d9534f !important;
-    color: white !important;
-  }
-
-  /* SNN: 주황색 */
-  &.snn {
-    background-color: #f0ad4e !important;
-    color: white !important;
-  }
-
-  /* Adversarial attack: 초록색 */
-  &.adver {
-    background-color: #28a745 !important;
-    color: white !important;
-  }
-  
-  /* CVPR 등 특정 학회 색상도 여기서 지정 가능 */
-  &.lightweight {
-    background-color: #1c5297 !important;
-    color: white !important;
-  }
-}
